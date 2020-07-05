@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valami</title>
-    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
@@ -58,14 +58,59 @@
           </form>
         </div>
       </nav>
-    <a target="_blank" href="https://www.teletal.hu/" title="http://www.teletal.hu">http://www.teletal.hu</a>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Adatok</legend>
 
-    <a target="_blank" href="https://www.google.com/" title="http://www.teletal.hu">http://www.teletal.hu</a>
+                    <div>
+                        <label for="name">Név: *</label>
+                        <input id="name" name="name" type="text" placeholder="Név" required>
+                    </div>
+                    <div>
+                        <label for="email">Email: *</label>
+                        <input id="email" name="email" type="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <label for="address">Cím: *</label>
+                        <input id="address" name="address" type="text" placeholder="Cím" required>
+                    </div>
+                    <div>
+                        <label for="comment">Megjegyzés: *</label>
+                        <textarea name="comment" id="comment" rows="10" placeholder="ide írd amit akarsz"></textarea>
+                    </div>
+            
 
-    <a target="_blank" href="https://www.facebook.com/" title="http://www.teletal.hu">http://www.teletal.hu</a>
+            </fieldset>
+            <div>
+                <span>Extra feltét</span>
 
-    <a target="_blank" href="https://www.bonprix.hu/" title="http://www.teletal.hu">http://www.amazon.hu</a>
+                <div>
+                    <input type="radio" id="one" name="one">
+                    <label for="one">One</label>
+                    <input type="radio" id="two" name="one">
+                    <label for="two">Two</label>
+                    <input type="radio" id="three" name="one">
+                    <label for="three">Three</label>
+                </div>
 
+                <div>
+                    <input type="checkbox" id="four" name="four">
+                    <label for="four">One</label>
+                    <input type="checkbox" id="five" name="five">
+                    <label for="five">Two</label>
+                    <input type="checkbox" id="six" name="six">
+                    <label for="six">Three</label>
+                
+                </div>
+
+                <div>
+                    <button>Rendelés leadása</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
 </body>
 
 </html>

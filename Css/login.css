@@ -1,0 +1,16 @@
+body {
+    background-color: lightgrey;
+}
+
+.login-div {
+    padding: 15px;
+    border :solid 1px grey;
+    box-shadow: 0 0 10px;
+    display: inline-block;
+}
+
+.login-div input {
+    display: block;
+    margin-bottom: 7px;
+
+}
