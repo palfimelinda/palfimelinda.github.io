@@ -1,0 +1,12 @@
+//githubon megnézzük ritwickday settings: ignore files: web újratöltődés elkerülése
+
+{
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts",
+        "node_modules/**",
+        "db/**"
+    ]
+}

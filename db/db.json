@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Geggő",
+      "email": "gergo",
+      "id": 1
+    },
+    {
+      "name": "Milán",
+      "email": "milan",
+      "id": 2
+    },
+    {
+      "name": "Melinda",
+      "email": "melinda",
+      "id": 3
+    },
+    {
+      "name": "Gergely",
+      "email": "gergely",
+      "id": 4
+    }
+  ],
+  "comments": []
+}
